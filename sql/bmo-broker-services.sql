@@ -3,10 +3,10 @@ INSERT INTO appraisal.auto_invoice_criteria
 VALUES('Bank of Montreal Broker Services', 'APP_REQUEST_STATUS', 'Completed,Reviewed,NAS_Reviewed,Cancelled,Under_Review,NAS_Under_Review,Resubmitted,OHC,OHA,OHR', NULL);
 INSERT INTO appraisal.auto_invoice_criteria
 (client_company, criteria, criteria_value1, criteria_value2)
-VALUES('Bank of Montreal Broker Services', 'BILLING_DAY_OF_WEEK', 'MONDAY thru FRIDAY', NULL);
+VALUES('Bank of Montreal Broker Services', 'BILLING_DAY_OF_WEEK', 'MONTHLY', NULL);
 INSERT INTO appraisal.auto_invoice_criteria
 (client_company, criteria, criteria_value1, criteria_value2)
-VALUES('Bank of Montreal Broker Services', 'BILLING_FREQUENCY', 'DAILY', NULL);
+VALUES('Bank of Montreal Broker Services', 'BILLING_FREQUENCY', 'MONTHLY', NULL);
 INSERT INTO appraisal.auto_invoice_criteria
 (client_company, criteria, criteria_value1, criteria_value2)
 VALUES('Bank of Montreal Broker Services', 'COMPANY', 'Bank of Montreal Broker Services', NULL);
